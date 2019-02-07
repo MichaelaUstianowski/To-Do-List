@@ -1,0 +1,47 @@
+<!-- plan To Do List
+
+- Text box where Person can enter text - this is their list item
+
+-Button to add the text in textbox to list section of page
+
+-Button which can tick off completed list items or move them to a 'completed' section of page
+
+-Button to remove one list item
+
+-button to reset list (i.e remove all list items)
+
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>To do list app</title>
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <div class="to-do-list-app">
+    <div class="enter-list-item">
+      <form>
+        <h2>Enter List item title thing</h2>
+        input list item:<br><input type="text" name="enter list item"></br>
+        <br><input type="submit" value="Submit list item"></br>
+      </form>
+    </div>
+    <div class="display-list">
+      <h2>My List</h2>
+        <ul>
+          <li>List item 1</li><button>Completed</button><button>Remove list item</button>
+          <li>List item 2</li><button>Completed</button><button>Remove list item</button>
+          <li>List item 4</li><button>Completed</button><button>Remove list item</button>
+          <li>List item 3</li><button>Completed</button><button>Remove list item</button>
+          <li>List item 5</li><button>Completed</button><button>Remove list item</button>
+          <li>List item 6</li><button>Completed</button><button>Remove list item</button>
+        </ul>
+        <button id="reset">Reset list</button>
+    </div>
+  </div>
+  </body>
+</html>
